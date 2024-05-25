@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins.ttf);
+
+}*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+#sales{
+    background-color: #40A578;
+    color: white;
+    height: 35px;
+    text-align: center;
+    padding: 6px;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600;
+    background-color: white;
+    padding: 25px;
+}
