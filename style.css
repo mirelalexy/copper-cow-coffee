@@ -1,8 +1,12 @@
 @font-face {
-    font-family: Poppins;
-    src: url(fonts/Poppins.ttf);
-
-}*{
+    font-family: Montserrat;
+    src: url(fonts/Montserrat.ttf);
+}
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(fonts/Montserrat-Black.ttf);
+}
+*{
     box-sizing: border-box;
 }
 
@@ -11,20 +15,38 @@ body{
 }
 
 #sales{
-    background-color: #40A578;
+    background: linear-gradient(to right, #FF66C4, #FFDE59);;
     color: white;
     height: 35px;
     text-align: center;
     padding: 6px;
-    font-family: "Poppins";
-    font-weight: bold;
+    font-family: Montserrat;
+    font-weight: 500;
+    text-shadow: rgb(110, 110, 110) 1px 1px 5px;
 }
 
-#icons{
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600;
     background-color: white;
-    padding: 25px;
+}
+
+.links{
+    color: #8ACDD7;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 50px;
+    text-align: center;
+}
+
+.icons{
+    margin: 50px;
+}
+
+#logo{
+    font-family: Montserrat-Black;
+    font-size: 35px;
+    margin: 50px;
 }
